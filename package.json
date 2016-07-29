@@ -1,6 +1,6 @@
 {
   "name": "ftpd-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "./lib/ftpd-cli.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "url": "https://github.com/andrew-medvedev/ftpd-cli/issues"
   },
   "bin":{
-    "ftpd-cli": "./bin/ftpdcli"
+    "ftpd-cli": "./bin/ftpd-cli"
   },
   "author": "Andrew Medvedev <andrew.medvedev.nh@gmail.com>",
   "keywords": [
