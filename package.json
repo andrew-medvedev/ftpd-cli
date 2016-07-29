@@ -1,8 +1,8 @@
 {
-  "name": "Trylu simple ftpd",
-  "version": "0.0.1",
+  "name": "ftpd-cli",
+  "version": "0.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "./ftpdcli.js",
   "scripts": {
     "test": "echo \"Look for testing cases here: https://github.com/sstur/nodeftpd\" && exit 1"
   },
@@ -14,7 +14,7 @@
     "url": "https://github.com/andrew-medvedev/ftpd-cli/issues"
   },
   "bin":{
-    "ftpd-cli": "./index.js"
+    "ftpd-cli": "./bin/ftpdcli"
   },
   "author": "Andrew Medvedev <andrew.medvedev.nh@gmail.com>",
   "keywords": [

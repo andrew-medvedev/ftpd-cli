@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+
 'use strict';
 
 var ftpd = require('ftpd'),
@@ -9,7 +9,9 @@ var DIRECTORY_ARG = '--directory',
     PORT_ARG = '--port',
     PORT_ARG_SHORT = '-P',
     USER_PASSWORD_ARG = '--user-password',
-    USER_PASSWORD_ARG_SHORT = '-UP';
+    USER_PASSWORD_ARG_SHORT = '-UP',
+    VERSION_ARG = '--version',
+    VERSION_ARG_SHORT = '-V';
 
 function parseArguments(args){
     var argsBook = { port: 21 };
@@ -45,7 +47,15 @@ function parseArguments(args){
                     });
                 }
                 break;
+            case VERSION_ARG:
+            case VERSION_ARG_SHORT:
+                argsBook.getVersion = true;
+                break;
         }
+    }
+    
+    if(argsBook.getVersion){
+        return console.log('ftpd-cli version: ' + require('./package.json').version)
     }
 
     if(_.isUndefined(argsBook.directory)){
