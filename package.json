@@ -1,8 +1,8 @@
 {
   "name": "ftpd-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
-  "main": "./ftpdcli.js",
+  "main": "./lib/ftpd-cli.js",
   "scripts": {
     "test": "echo \"Look for testing cases here: https://github.com/sstur/nodeftpd\" && exit 1"
   },
