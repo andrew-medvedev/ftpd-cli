@@ -1,0 +1,23 @@
+{
+  "name": "Trylu simple ftpd",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Look for testing cases here: https://github.com/sstur/nodeftpd\" && exit 1"
+  },
+  "bin":{
+    "ftpd-cli": "./index.js"
+  },
+  "author": "Andrew Medvedev <andrew.medvedev.nh@gmail.com>",
+  "keywords": [
+    "ftp",
+    "ftp-server",
+    "ftpd"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "ftpd": "^0.2.15",
+    "underscore": "^1.8.3"
+  }
+}
