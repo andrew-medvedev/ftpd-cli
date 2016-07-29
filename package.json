@@ -6,6 +6,13 @@
   "scripts": {
     "test": "echo \"Look for testing cases here: https://github.com/sstur/nodeftpd\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:andrew-medvedev/ftpd-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andrew-medvedev/ftpd-cli/issues"
+  },
   "bin":{
     "ftpd-cli": "./index.js"
   },
