@@ -1,6 +1,6 @@
 {
   "name": "ftpd-cli",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "main": "./lib/ftpd-cli.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "bugs": {
     "url": "https://github.com/andrew-medvedev/ftpd-cli/issues"
   },
-  "bin":{
+  "bin": {
     "ftpd-cli": "./bin/ftpd-cli"
   },
   "author": "Andrew Medvedev <andrew.medvedev.nh@gmail.com>",
@@ -24,7 +24,10 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "delete": "^0.3.2",
     "ftpd": "^0.2.15",
-    "underscore": "^1.8.3"
+    "read-file": "^0.2.0",
+    "underscore": "^1.8.3",
+    "write": "^0.3.1"
   }
 }
