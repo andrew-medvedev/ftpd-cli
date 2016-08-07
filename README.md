@@ -1,9 +1,11 @@
 # Truly simple zero-config 5-sec FTP server in pure JavaScript
 
-Based on this npm [module](https://www.npmjs.com/package/ftpd). `ftpd-cli` is a simple and zero-config ftp server daemon
+`ftpd-cli` is a simple and zero-config ftp server daemon
 that will help you if your boss wants ftp access right now.
 
 ![FTP](http://technotree.ru/wp-content/uploads/2015/02/ftp_made_simple-main.jpg)
+
+Based on this npm [module](https://www.npmjs.com/package/ftpd).
 
 ## Install it globally
 
